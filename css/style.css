@@ -1,0 +1,117 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00C4CC, #7C2AE8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #03466E;
+}
+
+.header-text h1 { 
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-text h2 { 
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.header-text h3 { 
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .cube img {
+    width: 100%;
+} */
+
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.sub-title {
+    display: flex;
+}
+
+.sub-title h3 {
+    font-weight: 700;
+    color: #03466E;
+
+}
+
+.sub-title h4 {
+    font-weight: 300;
+    color: #03466E;
+    font-size: 24px;
+}
+
+.sub-title p {
+    color: #03466E;
+
+}
+
+.skills p {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hobbies-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hobbies-content p {
+    font-size: 18px;
+    font-weight: 600;
+}
